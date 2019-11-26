@@ -1,0 +1,84 @@
+<!DOCTYPE html>	  
+<html>  
+<body> 
+<script src="https://www.w3schools.com/lib/w3.js"></script>				
+<script src="https://littleflute.github.io/JavaScript/blclass.js"></script>		
+<script src="https://littleflute.github.io/JavaScript/blApp.js"></script>		
+<div id="id_div_mp4i_bat_info" >								
+<a target="_blank" href="https://github.com/littleflute/bat/edit/master/bat/mp4index/mp4i.bat">v1.3. 23 * </a>	
+<a href="..">[..]</a> <button id="id_btn_4_blApp">+++++++++++blApp+++++++++</button>	
+</div>						 
+<div id="DivCurTime"></div> 			
+<br>  
+<div id="DivButtons"> 				
+<div id="DivButtons"> 				
+<div id="DivButtons"> 				
+<button onclick="play('20191125-003000-VLE122-program.mp3')">1:20191125-003000-VLE122-program.mp3</button> 
+<button onclick="play('as20191125a1.mp3')">2:as20191125a1.mp3</button> 
+<button onclick="play('as20191125a2.mp3')">3:as20191125a2.mp3</button> 
+<button onclick="play('hl20191125a.mp3')">4:hl20191125a.mp3</button> 
+<button onclick="play('news20191126-2.mp3')">5:news20191126-2.mp3</button> 
+ </div> 			
+<br> 	
+<div id="id_div_4_gif" style="border:1px solid green;" >				
+</div> 									
+<br> 	
+<div id="id_div_4_jpg" style="border:1px solid blue;" >				
+as20191125a11.jpg, 
+as20191125a12.jpg, 
+as20191125a13.jpg, 
+as20191125a21.jpg, 
+d1.jpg, 
+d10.jpg, 
+d11.jpg, 
+d12.jpg, 
+d13.jpg, 
+d14.jpg, 
+d2.jpg, 
+d3.jpg, 
+d4.jpg, 
+d5.jpg, 
+d6.jpg, 
+d7.jpg, 
+d8.jpg, 
+d9.jpg, 
+hl20191125p11.jpg, 
+hl20191125p12.jpg, 
+</div> 									
+<br> 	
+<div id="id_div_4_png" style="border:1px solid blue;" >				
+</div> 								 
+<br> 	
+<div id="id_div_4_lrcJS" style="border:1px solid red;display: none;" >		
+</div> 								
+<script>  
+var str4V = '<video id="myVideo" width="720" height="480" controls> ';				
+str4V += '<source src="v1.mp4" type="video/mp4">Your browser does not support HTML5 video.'; 	
+str4V += '</video>';  										
+var md4v = blo0.blMDiv(document.body,"id_mdiv_4_myVideo" , str4V , 300,100,500,400,blColor[1]); 	
+var vid = document.getElementById("myVideo"); 
+function play(i) {
+    vid.src=i; 
+    vid.load();
+    vid.play(); 
+}
+function getCurTime() {  
+   document.getElementById("DivCurTime").innerHTML= vid.currentTime; 
+}   
+function setCurTime(t) { 
+   vid.currentTime=t;  
+   getCurTime();
+}  
+function moveMS(ms) { 
+  vid.currentTime+=ms;
+  getCurTime();  
+}   
+var _loadScript = function (id,src){					
+var	r = document.createElement("script");				
+r.id = id;								
+r.src = src; 								
+document.body.appendChild(r);						
+}									
+_loadScript ("id_script_plx","plx.js");				
+</script> 
+</body> 
