@@ -1,0 +1,75 @@
+{
+    "request": {
+        "version": "0.0.8",
+        "width": 1920,
+        "height": 1080,
+        "music": "${VAR_MP3}",
+        "rate": "1",
+        "frames": [
+            {
+                "number": "1",
+                "time": "${VAR_TIME}",
+                "objects": [
+                    {
+                        "text": "${VAR_TITLE}",
+                        "x": 100,
+                        "y": 60,
+                        "size": 50,
+                        "color": "211,142,35"
+                    },
+                    {
+                        "text": "${VAR_TITLE}",
+                        "x": 100,
+                        "y": 120,
+                        "size": 50,
+                        "color": "211,142,235"
+                    }
+                ],
+                "backgroundColor": "200,200,222"
+            }
+        ],
+        "superObjects": [
+            {
+                "type": "text",
+                "attribute": {
+                    "x1": 20,
+                    "y1": 100,
+                    "x2": -1,
+                    "y2": -1,
+                    "size": 35,
+                    "color": "10,10,10",
+                    "name": "${VAR_TEXT}"
+                },
+                "frameRange": "(1,512)",
+                "action": {
+                    "trace": "x=20",
+                    "step": -4
+                }
+            }
+        ],
+        "Macros": [
+            {
+                "name": "VAR_MP3",
+                "value": "https://littleflute.github.io/vle202103/03/01/as20210301a3.mp3"
+            },
+            {
+                "name": "VAR_TITLE",
+                "value": {
+                    "href": "https://littleflute.github.io/vle202103/03/01/asa3.html",
+                    "rule": "title",
+                    "charset": "utf-8",
+                    "number": "30"
+                }
+            },
+            {
+                "name": "VAR_TEXT",
+                "value": {
+                    "href": "https://littleflute.github.io/vle202103/03/01/asa3.html",
+                    "rule": "p",
+                    "charset": "utf-8",
+                    "number": "64"
+                }
+            }
+        ]
+    }
+}
