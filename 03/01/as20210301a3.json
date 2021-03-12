@@ -18,11 +18,11 @@
                         "color": "211,142,35"
                     },
                     {
-                        "text": "${VAR_TITLE}",
+                        "text": "text test by littleflute",
                         "x": 100,
-                        "y": 120,
+                        "y": 150,
                         "size": 50,
-                        "color": "211,142,235"
+                        "color": "11,142,235"
                     }
                 ],
                 "backgroundColor": "200,200,222"
