@@ -43,12 +43,12 @@
         "Macros": [
             {
                 "name": "VAR_MP3",
-                "value": "https://littleflute.github.io/vle202103/03/01/as202103/03/01/as20210301a1.mp3"
+                "value": "https://littleflute.github.io/vle202103/03/01/as20210301a2.mp3"
             },
             {
                 "name": "VAR_TITLE",
                 "value": {
-                    "href": "https://littleflute.github.io/vle202103/03/01/asa1.html",
+                    "href": "https://littleflute.github.io/vle202103/03/01/asa2.html",
                     "rule": "title",
                     "charset": "utf-8",
                     "number": "30"
@@ -57,7 +57,7 @@
             {
                 "name": "VAR_TEXT",
                 "value": {
-                    "href": "https://littleflute.github.io/vle202103/03/01/asa1.html",
+                    "href": "https://littleflute.github.io/vle202103/03/01/asa2.html",
                     "rule": "p",
                     "charset": "utf-8",
                     "number": "64"
