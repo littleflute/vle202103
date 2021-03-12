@@ -23,6 +23,16 @@
                         "y": 120,
                         "size": 50,
                         "color": "211,142,235"
+                    }, 
+                    {
+                        "graphic": "rect", 
+                        "attribute": {
+                            "left": 1800, 
+                            "top": 400, 
+                            "width": 100, 
+                            "height": 120, 
+                            "color": "242,28,124"
+                        }
                     }
                 ],
                 "backgroundColor": "200,200,222"
