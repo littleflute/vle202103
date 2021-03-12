@@ -16,10 +16,17 @@
                         "y": 60,
                         "size": 50,
                         "color": "211,142,35"
+                    },
+                    {
+                        "text": "${VAR_TITLE}",
+                        "x": 100,
+                        "y":120,
+                        "size": 50,
+                        "color": "211,142,235"
                     }
                 ],
                 "backgroundColor": "200,200,222"
-            }
+            } 
         ],
         "superObjects": [
             {
